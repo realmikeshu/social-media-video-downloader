@@ -13,7 +13,7 @@ export function DeskHeader({ mode }: { mode: DeskMode }) {
             {social ? <Film className="size-5" aria-hidden="true" /> : <Megaphone className="size-5" aria-hidden="true" />}
           </span>
           <div className="min-w-0">
-            <h1 className="font-display text-mast tracking-tight text-balance">Spool</h1>
+            <h1 className="font-display text-mast tracking-tight text-balance">Social Media Video Downloader</h1>
             <p className="mt-13 text-sm text-pretty text-muted">
               {social
                 ? "Social desk. Competitor Reels, TikToks, and Shorts, saved so you can study the cut."

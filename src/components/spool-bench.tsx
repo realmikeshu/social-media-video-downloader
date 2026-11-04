@@ -93,7 +93,7 @@ function platformLabel(platform: Platform): string {
   return "Instagram";
 }
 
-export function SpoolBench() {
+export function Social Media Video DownloaderBench() {
   const [draft, setDraft] = useState("");
   const [rows, setRows] = useState<Row[]>([]);
   const [recent, setRecent] = useState<Recent[]>([]);
@@ -142,7 +142,7 @@ export function SpoolBench() {
     } catch {
       /* fall through */
     }
-    return { ok: false, sourceUrl: url, error: "Spool could not read that link." };
+    return { ok: false, sourceUrl: url, error: "Social Media Video Downloader could not read that link." };
   }
 
   async function run(list?: string[]) {

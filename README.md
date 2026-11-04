@@ -1,4 +1,4 @@
-# Spool
+# Social Media Video Downloader
 
 One desk for two kinds of research.
 
