@@ -93,7 +93,7 @@ function platformLabel(platform: Platform): string {
   return "Instagram";
 }
 
-export function Social Media Video DownloaderBench() {
+export function SpoolBench() {
   const [draft, setDraft] = useState("");
   const [rows, setRows] = useState<Row[]>([]);
   const [recent, setRecent] = useState<Recent[]>([]);
